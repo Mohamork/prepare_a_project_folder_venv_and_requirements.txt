@@ -33,14 +33,19 @@ result = subprocess.check_call([
     python,'-m','pip','install','--upgrade', 'pip'])
 print(result)
 # Install packages from requirements.txt
-result = subprocess.check_call([
-    python, '-m','pip','install','-r', 'requirements.txt'])
+try:
+    result = subprocess.check_call([
+        python, '-m','pip','install','-r', 'requirements.txt'])
+except subprocess.CalledProcessError:
+    print()   
 # Create a new requirements.txt inside the projectfolder
 with open(f'{project_path}/requirements.txt','w')  as f:
     result = subprocess.check_call([
         python, '-m','pip','freeze'],stdout=f,)
-    print('* '*15)
-    print(f'requirements.txt is created inside {project_path} for reference for collaborators.')
+print('* '*15)
+print(f'requirements.txt is created inside {project_path} for reference for collaborators.')
+
+
 # Display the installed packages
 with open(f'{project_path}/requirements.txt', 'r') as f:
     pkg = (sum(1 for _ in f)) 
