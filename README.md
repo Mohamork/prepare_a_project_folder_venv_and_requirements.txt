@@ -1,4 +1,4 @@
-# prepare_a_project_folder_venv_and_requirements.txt
+# Project Description
 A script to prepare a Python project by creating resources like a project folder and venv plus installation of packages.
 
 ##### I have a requirements.txt with content
