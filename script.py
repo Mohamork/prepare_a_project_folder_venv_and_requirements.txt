@@ -71,7 +71,7 @@ with open(f'{project_path}/requirements.txt','w')  as f:
     
 print('* '*15)
 
-print(f'requirements.txt is created for project:{project_name')
+print(f'requirements.txt is created for project:{project_name}')
 
 # Display the installed packages
 
