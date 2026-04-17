@@ -5,10 +5,13 @@ This is a script that reduces project creation time by automating :
   - Install modules
 
 ## How to use
-- Run the script from where you usually create your projects
-- From here a new subolder is created including your virtual environment and optional modules.
+- Run the script from the same directory you usually create your projects
+- From here a new subfolder is created including your virtual environment and optional modules.
 
-
+### How to automate module installation
+- Prepare the modules inside a requirements.txt file
+- Store the requirements.txt file inside the same directory where you usually create your projects.
+   
 ##### I have a requirements.txt with content
 The script will create a project folder, venv and install packages from the requirements.txt file.
 
