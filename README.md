@@ -20,9 +20,9 @@ The script will create a project folder, venv and install packages from the requ
 The script will create a project folder and venv. No packages get installed.
 
 ##### I have no requirements.txt
-No problem. The script will create the project folder and the virtual environment. No packages get installed.
+The script will create the project folder and the virtual environment. No packages get installed.
 
 
-Works on Windows, Linux and macOs
+**Works on Windows, Linux and macOs**
 
 
