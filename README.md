@@ -1,5 +1,5 @@
 # Project Description
-This is a script that reduces project creation time by automating :
+Reduce project initiation time with this automation tool :
   - Create a project folder inside the parent folder for all of your projects
   - Upgrade to latest version of pip
   - Create a virtual environment
