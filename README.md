@@ -1,5 +1,5 @@
 # Project Description
-Reduce project initiation time with this automation tool :
+Automate the initial steps of your new project. A dedicated script to:
   - Create a project folder inside the parent folder for all of your projects
   - Upgrade to latest version of pip
   - Create a virtual environment
@@ -8,7 +8,7 @@ Reduce project initiation time with this automation tool :
   
 
 ## Before using the script
-  - Save to script in whichever folder you like. For example my_scripts
+  - Save the script in whichever folder you like. For example my_scripts
   - On line 14 replace parent_folder = 'INSERT THE PARENT FOLDER FOR ALL YOUR PROJECTS HERE to a folder which you will like to create projects.
   - Create an empty requirements.txt file in the same folder as the script. This is where you will type all requirements your project needs. The script will install modules from here.
 
