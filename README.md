@@ -4,7 +4,7 @@ Automate the initial steps of your new project. A dedicated script to:
   - Upgrade to the latest version of pip
   - Create a virtual environment
   - Install modules
-  - Save installed modules in a new requirements.xt file
+  - Save installed modules in a new requirements.txt file
   
 
 ## Before using the script
