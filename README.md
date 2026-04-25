@@ -13,7 +13,7 @@ Automate the initial steps of your new project. A dedicated script to:
   - Create an empty requirements.txt file in the same folder as the script. From here the script will know which modules to install. This can be updated for future projects
 
 ## How to use
-- Open a commandline shell and run the script from the same folder as the script
+- Open a commandline shell and run the script i.e 'python my_scripts\stage_new_project.py'
 - Type in your projects name
 
 ## Results
