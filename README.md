@@ -14,7 +14,7 @@ Automate the initial steps of your new project. A dedicated script to:
 
 ## How to use
 - Open a commandline shell and run the script i.e 'python my_scripts\stage_new_project.py'
-- Type in your projects name
+- Type in the name of the new project
 
 ## Results
 - You will have a dedicated folder for your new project
